@@ -13,10 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Succeed">
+      <UniqueIdentifier>{76a9b2ad-cbea-453f-a22c-f821eead38dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Failed">
+      <UniqueIdentifier>{a1daf0dc-ed75-4958-b13f-4664c9a08a18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1009.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Succeed</Filter>
+    </ClCompile>
+    <ClCompile Include="1271.cpp">
+      <Filter>Failed</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
